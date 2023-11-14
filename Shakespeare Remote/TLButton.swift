@@ -23,6 +23,7 @@ struct TLButton: View {
                 Text(title)
                     .foregroundColor(Color.white)
                     .bold()
+                    .font(.system(size: 36))
             }
         }
         .padding()
