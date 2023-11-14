@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6019CD9F2B02F7E200D706DD /* Shakespeare_RemoteApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6019CD9E2B02F7E200D706DD /* Shakespeare_RemoteApp.swift */; };
+		6019CDA12B02F7E200D706DD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6019CDA02B02F7E200D706DD /* ContentView.swift */; };
+		6019CDA32B02F7E300D706DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6019CDA22B02F7E300D706DD /* Assets.xcassets */; };
+		6019CDA62B02F7E300D706DD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6019CDA52B02F7E300D706DD /* Preview Assets.xcassets */; };
+		6019CDB02B02F7E300D706DD /* Shakespeare_RemoteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6019CDAF2B02F7E300D706DD /* Shakespeare_RemoteTests.swift */; };
+		6019CDBA2B02F7E300D706DD /* Shakespeare_RemoteUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6019CDB92B02F7E300D706DD /* Shakespeare_RemoteUITests.swift */; };
+		6019CDBC2B02F7E300D706DD /* Shakespeare_RemoteUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6019CDBB2B02F7E300D706DD /* Shakespeare_RemoteUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6019CDAC2B02F7E300D706DD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6019CD932B02F7E200D706DD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6019CD9A2B02F7E200D706DD;
+			remoteInfo = "Shakespeare Remote";
+		};
+		6019CDB62B02F7E300D706DD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6019CD932B02F7E200D706DD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6019CD9A2B02F7E200D706DD;
+			remoteInfo = "Shakespeare Remote";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6019CD9B2B02F7E200D706DD /* Shakespeare Remote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Shakespeare Remote.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6019CD9E2B02F7E200D706DD /* Shakespeare_RemoteApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shakespeare_RemoteApp.swift; sourceTree = "<group>"; };
+		6019CDA02B02F7E200D706DD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		6019CDA22B02F7E300D706DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6019CDA52B02F7E300D706DD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6019CDAB2B02F7E300D706DD /* Shakespeare RemoteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Shakespeare RemoteTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6019CDAF2B02F7E300D706DD /* Shakespeare_RemoteTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shakespeare_RemoteTests.swift; sourceTree = "<group>"; };
+		6019CDB52B02F7E300D706DD /* Shakespeare RemoteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Shakespeare RemoteUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6019CDB92B02F7E300D706DD /* Shakespeare_RemoteUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shakespeare_RemoteUITests.swift; sourceTree = "<group>"; };
+		6019CDBB2B02F7E300D706DD /* Shakespeare_RemoteUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shakespeare_RemoteUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6019CD982B02F7E200D706DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6019CDA82B02F7E300D706DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6019CDB22B02F7E300D706DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6019CD922B02F7E200D706DD = {
+			isa = PBXGroup;
+			children = (
+				6019CD9D2B02F7E200D706DD /* Shakespeare Remote */,
+				6019CDAE2B02F7E300D706DD /* Shakespeare RemoteTests */,
+				6019CDB82B02F7E300D706DD /* Shakespeare RemoteUITests */,
+				6019CD9C2B02F7E200D706DD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6019CD9C2B02F7E200D706DD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6019CD9B2B02F7E200D706DD /* Shakespeare Remote.app */,
+				6019CDAB2B02F7E300D706DD /* Shakespeare RemoteTests.xctest */,
+				6019CDB52B02F7E300D706DD /* Shakespeare RemoteUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6019CD9D2B02F7E200D706DD /* Shakespeare Remote */ = {
+			isa = PBXGroup;
+			children = (
+				6019CD9E2B02F7E200D706DD /* Shakespeare_RemoteApp.swift */,
+				6019CDA02B02F7E200D706DD /* ContentView.swift */,
+				6019CDA22B02F7E300D706DD /* Assets.xcassets */,
+				6019CDA42B02F7E300D706DD /* Preview Content */,
+			);
+			path = "Shakespeare Remote";
+			sourceTree = "<group>";
+		};
+		6019CDA42B02F7E300D706DD /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				6019CDA52B02F7E300D706DD /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6019CDAE2B02F7E300D706DD /* Shakespeare RemoteTests */ = {
+			isa = PBXGroup;
+			children = (
+				6019CDAF2B02F7E300D706DD /* Shakespeare_RemoteTests.swift */,
+			);
+			path = "Shakespeare RemoteTests";
+			sourceTree = "<group>";
+		};
+		6019CDB82B02F7E300D706DD /* Shakespeare RemoteUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6019CDB92B02F7E300D706DD /* Shakespeare_RemoteUITests.swift */,
+				6019CDBB2B02F7E300D706DD /* Shakespeare_RemoteUITestsLaunchTests.swift */,
+			);
+			path = "Shakespeare RemoteUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6019CD9A2B02F7E200D706DD /* Shakespeare Remote */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6019CDBF2B02F7E300D706DD /* Build configuration list for PBXNativeTarget "Shakespeare Remote" */;
+			buildPhases = (
+				6019CD972B02F7E200D706DD /* Sources */,
+				6019CD982B02F7E200D706DD /* Frameworks */,
+				6019CD992B02F7E200D706DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Shakespeare Remote";
+			productName = "Shakespeare Remote";
+			productReference = 6019CD9B2B02F7E200D706DD /* Shakespeare Remote.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6019CDAA2B02F7E300D706DD /* Shakespeare RemoteTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6019CDC22B02F7E300D706DD /* Build configuration list for PBXNativeTarget "Shakespeare RemoteTests" */;
+			buildPhases = (
+				6019CDA72B02F7E300D706DD /* Sources */,
+				6019CDA82B02F7E300D706DD /* Frameworks */,
+				6019CDA92B02F7E300D706DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6019CDAD2B02F7E300D706DD /* PBXTargetDependency */,
+			);
+			name = "Shakespeare RemoteTests";
+			productName = "Shakespeare RemoteTests";
+			productReference = 6019CDAB2B02F7E300D706DD /* Shakespeare RemoteTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6019CDB42B02F7E300D706DD /* Shakespeare RemoteUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6019CDC52B02F7E300D706DD /* Build configuration list for PBXNativeTarget "Shakespeare RemoteUITests" */;
+			buildPhases = (
+				6019CDB12B02F7E300D706DD /* Sources */,
+				6019CDB22B02F7E300D706DD /* Frameworks */,
+				6019CDB32B02F7E300D706DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6019CDB72B02F7E300D706DD /* PBXTargetDependency */,
+			);
+			name = "Shakespeare RemoteUITests";
+			productName = "Shakespeare RemoteUITests";
+			productReference = 6019CDB52B02F7E300D706DD /* Shakespeare RemoteUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6019CD932B02F7E200D706DD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					6019CD9A2B02F7E200D706DD = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					6019CDAA2B02F7E300D706DD = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 6019CD9A2B02F7E200D706DD;
+					};
+					6019CDB42B02F7E300D706DD = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 6019CD9A2B02F7E200D706DD;
+					};
+				};
+			};
+			buildConfigurationList = 6019CD962B02F7E200D706DD /* Build configuration list for PBXProject "Shakespeare Remote" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6019CD922B02F7E200D706DD;
+			productRefGroup = 6019CD9C2B02F7E200D706DD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6019CD9A2B02F7E200D706DD /* Shakespeare Remote */,
+				6019CDAA2B02F7E300D706DD /* Shakespeare RemoteTests */,
+				6019CDB42B02F7E300D706DD /* Shakespeare RemoteUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6019CD992B02F7E200D706DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6019CDA62B02F7E300D706DD /* Preview Assets.xcassets in Resources */,
+				6019CDA32B02F7E300D706DD /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6019CDA92B02F7E300D706DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6019CDB32B02F7E300D706DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6019CD972B02F7E200D706DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6019CDA12B02F7E200D706DD /* ContentView.swift in Sources */,
+				6019CD9F2B02F7E200D706DD /* Shakespeare_RemoteApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6019CDA72B02F7E300D706DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6019CDB02B02F7E300D706DD /* Shakespeare_RemoteTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6019CDB12B02F7E300D706DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6019CDBA2B02F7E300D706DD /* Shakespeare_RemoteUITests.swift in Sources */,
+				6019CDBC2B02F7E300D706DD /* Shakespeare_RemoteUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6019CDAD2B02F7E300D706DD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6019CD9A2B02F7E200D706DD /* Shakespeare Remote */;
+			targetProxy = 6019CDAC2B02F7E300D706DD /* PBXContainerItemProxy */;
+		};
+		6019CDB72B02F7E300D706DD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6019CD9A2B02F7E200D706DD /* Shakespeare Remote */;
+			targetProxy = 6019CDB62B02F7E300D706DD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		6019CDBD2B02F7E300D706DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6019CDBE2B02F7E300D706DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6019CDC02B02F7E300D706DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Shakespeare Remote/Preview Content\"";
+				DEVELOPMENT_TEAM = 5T458C78BL;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.beau.Shakespeare-Remote";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6019CDC12B02F7E300D706DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Shakespeare Remote/Preview Content\"";
+				DEVELOPMENT_TEAM = 5T458C78BL;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.beau.Shakespeare-Remote";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6019CDC32B02F7E300D706DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5T458C78BL;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.beau.Shakespeare-RemoteTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Shakespeare Remote.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Shakespeare Remote";
+			};
+			name = Debug;
+		};
+		6019CDC42B02F7E300D706DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5T458C78BL;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.beau.Shakespeare-RemoteTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Shakespeare Remote.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Shakespeare Remote";
+			};
+			name = Release;
+		};
+		6019CDC62B02F7E300D706DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5T458C78BL;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.beau.Shakespeare-RemoteUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Shakespeare Remote";
+			};
+			name = Debug;
+		};
+		6019CDC72B02F7E300D706DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5T458C78BL;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.beau.Shakespeare-RemoteUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Shakespeare Remote";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6019CD962B02F7E200D706DD /* Build configuration list for PBXProject "Shakespeare Remote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6019CDBD2B02F7E300D706DD /* Debug */,
+				6019CDBE2B02F7E300D706DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6019CDBF2B02F7E300D706DD /* Build configuration list for PBXNativeTarget "Shakespeare Remote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6019CDC02B02F7E300D706DD /* Debug */,
+				6019CDC12B02F7E300D706DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6019CDC22B02F7E300D706DD /* Build configuration list for PBXNativeTarget "Shakespeare RemoteTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6019CDC32B02F7E300D706DD /* Debug */,
+				6019CDC42B02F7E300D706DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6019CDC52B02F7E300D706DD /* Build configuration list for PBXNativeTarget "Shakespeare RemoteUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6019CDC62B02F7E300D706DD /* Debug */,
+				6019CDC72B02F7E300D706DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6019CD932B02F7E200D706DD /* Project object */;
+}
