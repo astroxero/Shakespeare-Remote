@@ -55,18 +55,16 @@ class UDPClient {
         connection.cancel()
     }
     
-    func pad(data: Data, toSize size: Int) -> Data {
-        var paddedData = data
-        let paddingSize = size - (data.count % size)
-        if paddingSize < size {
-            paddedData.append(Data(count: paddingSize))
-        }
-        return paddedData
+    func padDataToNextMultipleOfFour(data: inout Data) {
+        let paddingCount = 4 - data.count % 4
+        let paddingBytes = Data(repeating: 0x00, count: paddingCount)
+        data.append(paddingBytes)
     }
     
-    func send(_ data: Data) {
-        let paddedData = pad(data: data, toSize: 16)
-        self.connection.send(content: paddedData, completion: self.resultHandler)
+    func send(_ olddata: Data) {
+        var newData = olddata
+        padDataToNextMultipleOfFour(data: &newData)
+        self.connection.send(content: newData, completion: self.resultHandler)
         self.connection.receiveMessage { data, context, isComplete, error in
             guard let data = data else {
                 print("Error: Received nil Data")

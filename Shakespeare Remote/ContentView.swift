@@ -36,6 +36,7 @@ struct ContentView: View {
                 }
                 TLButton(title: "Photo", bgColor: .purple) {
                     viewModel.sendMessage(message: "photo")
+                    
                 }
             }
             HStack {
