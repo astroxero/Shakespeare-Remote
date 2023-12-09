@@ -46,7 +46,7 @@ struct ContentView: View {
                 .buttonStyle(ScaleButton())
             }
             HStack {
-                TLButton(title: "Test", bgColor: .black) {
+                TLButton(title: "Test", bgColor: .gray) {
                     viewModel.sendMessage(message: "test")
                 }
                 .buttonStyle(ScaleButton())
