@@ -10,15 +10,20 @@ import SwiftUI
 struct ContentView: View {
     @StateObject var viewModel = ContentViewModel()
     @State var showingSheet = false
+    @AppStorage("FirstStart") var alertShouldBeShown = true
     
     var body: some View {
         VStack {
             Button {
                 showingSheet = true
+                Haptics.shared.softRoll()
             } label: {
-                Image(systemName: "info.circle.fill")
+                HStack {
+                    Image(systemName: "info.circle.fill")
+                    Text("Info")
+                }
             }
-            .buttonStyle(ScaleButton())
+            .padding(.top)
             HStack {
                 TLButton(title: "Daytime", bgColor: .yellow) {
                     viewModel.sendMessage(message: "daytime")
@@ -63,6 +68,15 @@ struct ContentView: View {
         }
         .sheet(isPresented: $showingSheet) {
             WelcomeView(isPresented: $showingSheet)
+        }
+        .onAppear {
+            checkFirstStart()
+        }
+    }
+    private func checkFirstStart() {
+        if alertShouldBeShown {
+            showingSheet = true
+            alertShouldBeShown = false
         }
     }
 }

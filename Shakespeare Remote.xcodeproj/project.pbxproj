@@ -18,10 +18,9 @@
 		6074B58F2B02FF0300D76476 /* TLButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6074B58E2B02FF0300D76476 /* TLButton.swift */; };
 		6074B5912B03016C00D76476 /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6074B5902B03016C00D76476 /* ContentViewModel.swift */; };
 		60EA378A2B2384F900475BF3 /* ScaleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60EA37892B2384F900475BF3 /* ScaleButton.swift */; };
-		60EAF4782B251466002F4711 /* AppSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60EAF4772B251466002F4711 /* AppSettings.swift */; };
-		60EAF47A2B25147B002F4711 /* Haptics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60EAF4792B25147B002F4711 /* Haptics.swift */; };
-		60EAF47C2B25148B002F4711 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60EAF47B2B25148B002F4711 /* WelcomeView.swift */; };
 		60EAF47E2B2532DE002F4711 /* SSModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60EAF47D2B2532DE002F4711 /* SSModel.swift */; };
+		60EAF4872B261E08002F4711 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60EAF4862B261E08002F4711 /* WelcomeView.swift */; };
+		60EAF4892B261F23002F4711 /* Haptics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60EAF4882B261F23002F4711 /* Haptics.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,10 +55,10 @@
 		6074B58E2B02FF0300D76476 /* TLButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TLButton.swift; sourceTree = "<group>"; };
 		6074B5902B03016C00D76476 /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
 		60EA37892B2384F900475BF3 /* ScaleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScaleButton.swift; sourceTree = "<group>"; };
-		60EAF4772B251466002F4711 /* AppSettings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppSettings.swift; path = ../../../../.Trash/AppSettings.swift; sourceTree = "<group>"; };
-		60EAF4792B25147B002F4711 /* Haptics.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Haptics.swift; path = ../../../../.Trash/Haptics.swift; sourceTree = "<group>"; };
-		60EAF47B2B25148B002F4711 /* WelcomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WelcomeView.swift; path = ../../../../.Trash/WelcomeView.swift; sourceTree = "<group>"; };
 		60EAF47D2B2532DE002F4711 /* SSModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SSModel.swift; sourceTree = "<group>"; };
+		60EAF4832B260BC5002F4711 /* Shakespeare Remote.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Shakespeare Remote.entitlements"; sourceTree = "<group>"; };
+		60EAF4862B261E08002F4711 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		60EAF4882B261F23002F4711 /* Haptics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Haptics.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,15 +109,15 @@
 		6019CD9D2B02F7E200D706DD /* Shakespeare Remote */ = {
 			isa = PBXGroup;
 			children = (
+				60EAF4832B260BC5002F4711 /* Shakespeare Remote.entitlements */,
 				6019CD9E2B02F7E200D706DD /* Shakespeare_RemoteApp.swift */,
 				6019CDA02B02F7E200D706DD /* ContentView.swift */,
 				6074B5902B03016C00D76476 /* ContentViewModel.swift */,
 				60EAF47D2B2532DE002F4711 /* SSModel.swift */,
 				6074B58C2B02F93E00D76476 /* UDPClient.swift */,
 				6074B58E2B02FF0300D76476 /* TLButton.swift */,
-				60EAF4772B251466002F4711 /* AppSettings.swift */,
-				60EAF4792B25147B002F4711 /* Haptics.swift */,
-				60EAF47B2B25148B002F4711 /* WelcomeView.swift */,
+				60EAF4862B261E08002F4711 /* WelcomeView.swift */,
+				60EAF4882B261F23002F4711 /* Haptics.swift */,
 				60EA37892B2384F900475BF3 /* ScaleButton.swift */,
 				6019CDA22B02F7E300D706DD /* Assets.xcassets */,
 				6019CDA42B02F7E300D706DD /* Preview Content */,
@@ -283,13 +282,12 @@
 			files = (
 				60EA378A2B2384F900475BF3 /* ScaleButton.swift in Sources */,
 				60EAF47E2B2532DE002F4711 /* SSModel.swift in Sources */,
+				60EAF4892B261F23002F4711 /* Haptics.swift in Sources */,
 				6074B58D2B02F93E00D76476 /* UDPClient.swift in Sources */,
-				60EAF47A2B25147B002F4711 /* Haptics.swift in Sources */,
+				60EAF4872B261E08002F4711 /* WelcomeView.swift in Sources */,
 				6074B58F2B02FF0300D76476 /* TLButton.swift in Sources */,
-				60EAF47C2B25148B002F4711 /* WelcomeView.swift in Sources */,
 				6019CDA12B02F7E200D706DD /* ContentView.swift in Sources */,
 				6019CD9F2B02F7E200D706DD /* Shakespeare_RemoteApp.swift in Sources */,
-				60EAF4782B251466002F4711 /* AppSettings.swift in Sources */,
 				6074B5912B03016C00D76476 /* ContentViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -451,12 +449,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Shakespeare Remote/Shakespeare Remote.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Shakespeare Remote/Preview Content\"";
 				DEVELOPMENT_TEAM = V2WCUWDL7B;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "";
+				INFOPLIST_KEY_CFBundleDisplayName = "SM Remote";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -469,9 +470,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.beau.Shakespeare-Remote";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = YES;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = "1,2,6";
 			};
 			name = Debug;
 		};
@@ -480,12 +484,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Shakespeare Remote/Shakespeare Remote.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Shakespeare Remote/Preview Content\"";
 				DEVELOPMENT_TEAM = V2WCUWDL7B;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "";
+				INFOPLIST_KEY_CFBundleDisplayName = "SM Remote";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -498,9 +505,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.beau.Shakespeare-Remote";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = YES;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = "1,2,6";
 			};
 			name = Release;
 		};
@@ -517,6 +527,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.beau.Shakespeare-RemoteTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = YES;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -537,6 +550,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.beau.Shakespeare-RemoteTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = YES;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -555,6 +571,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.beau.Shakespeare-RemoteUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = YES;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -573,6 +592,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.beau.Shakespeare-RemoteUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = YES;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
