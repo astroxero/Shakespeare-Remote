@@ -8,6 +8,7 @@
 import Foundation
 
 class ContentViewModel: ObservableObject {
+    @Published var sheetShown = true
     
     private var udpClient: UDPClient?
     
@@ -21,5 +22,6 @@ class ContentViewModel: ObservableObject {
             return
         }
         udpClient?.send(datatosend)
+        print("sent")
     }
 }

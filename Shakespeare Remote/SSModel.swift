@@ -6,3 +6,9 @@
 //
 
 import Foundation
+
+class SSModel : ObservableObject {
+    @Published var sheetShown = false
+    
+    init() {}
+}

@@ -8,17 +8,22 @@
 import SwiftUI
 
 struct ContentView: View {
+    @StateObject var viewModel = ContentViewModel()
+    @State var showingSheet = false
+    
     var body: some View {
-        @StateObject var viewModel: ContentViewModel = ContentViewModel()
-        @State var scale = 1.0
-        
         VStack {
+            Button {
+                showingSheet = true
+            } label: {
+                Image(systemName: "info.circle.fill")
+            }
+            .buttonStyle(ScaleButton())
             HStack {
                 TLButton(title: "Daytime", bgColor: .yellow) {
                     viewModel.sendMessage(message: "daytime")
                 }
                 .buttonStyle(ScaleButton())
-                
                 TLButton(title: "Pre-Show", bgColor: .orange) {
                     viewModel.sendMessage(message: "evening")
                 }
@@ -41,7 +46,6 @@ struct ContentView: View {
                 .buttonStyle(ScaleButton())
                 TLButton(title: "Photo", bgColor: .purple) {
                     viewModel.sendMessage(message: "photo")
-                    
                 }
                 .buttonStyle(ScaleButton())
             }
@@ -56,6 +60,9 @@ struct ContentView: View {
                 }
                 .buttonStyle(ScaleButton())
             }
+        }
+        .sheet(isPresented: $showingSheet) {
+            WelcomeView(isPresented: $showingSheet)
         }
     }
 }

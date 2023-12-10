@@ -65,6 +65,7 @@ class UDPClient {
         var newData = olddata
         padDataToNextMultipleOfFour(data: &newData)
         self.connection.send(content: newData, completion: self.resultHandler)
+        print("sent successfully")
         self.connection.receiveMessage { data, context, isComplete, error in
             guard let data = data else {
                 print("Error: Received nil Data")
@@ -75,6 +76,7 @@ class UDPClient {
                 return
             }
             self.delegate?.handleResponse(self, data: data)
+            
         }
     }
 }
